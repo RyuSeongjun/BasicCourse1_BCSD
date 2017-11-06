@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 ﻿#include <stdio.h>
+=======
+#include <stdio.h>
+
+>>>>>>> origin/master
 void question_one();
 void question_two();
 void question_three();
@@ -7,7 +12,8 @@ void question_four();
 int main()
 {
 	int question_num;
-
+	
+	printf("question number : ");
 	scanf("%d", &question_num);
 
 	switch(question_num) {
